@@ -13,9 +13,9 @@ class App extends Component {
         <div className="App">
           <Navbar />
           <div className="routed-component"></div>
-          <Route exact path="/"><Home /></Route>
-          <Route path="/contact"><Contact /></Route>
-          <Route path="/about"><About /></Route>
+          <Route exact path="/" component={Home}></Route>
+          <Route path="/contact" component={Contact}></Route>
+          <Route path="/about" component={About}></Route>
         </div>
       </BrowserRouter>      
     );

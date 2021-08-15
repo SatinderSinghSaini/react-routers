@@ -1,4 +1,4 @@
-let Home = ()=>{
+let Home = (props)=>{
     return (
         <div className="Home">
             Home Content

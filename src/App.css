@@ -32,3 +32,21 @@ a{
   font-size: 50px;
   font-family: fantasy;
 }
+.red-text .Contact{
+  color: red;
+}
+.pink-text .Contact{
+  color: pink;
+}
+.yellow-text .Contact{
+  color: yellow;
+}
+.green-text .Contact{
+  color: green;
+}
+.blue-text .Contact{
+  color: blue;
+}
+.orange-text .Contact{
+  color: orange;
+}
